@@ -2,6 +2,8 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 
+# STOCHASTIC GRADIENT DESCENT
+
 data=pd.read_csv("sampleData.csv")
 X = np.random.randn(50,1)
 Y = 3*X + np.random.randn(50,1)
