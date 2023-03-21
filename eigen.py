@@ -6,6 +6,7 @@ c = int(input("Number of cols in matrix: "))
 
 if (r!=c):
     print("only square matrices are valid\n")
+    
 else:
     m = []
     print("\nenter matrix data")
